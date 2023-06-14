@@ -68,7 +68,7 @@ $ nmap -sV -F --mtu 16 --send-eth // 16 bytes //
 
 #### Timing Templates
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 * Used to run scans slowest (T0) to fastest (T5)
 * T1 used in evading IDS
