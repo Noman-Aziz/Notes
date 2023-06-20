@@ -14,7 +14,7 @@ OWASP Zap (Zed Attack Proxy) is a security testing framework much like Burp Suit
 
 #### Features Translation from Burp Suite to OWASP ZAP
 
-<figure><img src="../../../../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -95,6 +95,6 @@ Want to further enhance ZAPs capabilities? Look at some of it’s downloadable e
 
 [Link](https://github.com/bugcrowd/HUNT) This will passively scan for known vulnerabilities in web applications.&#x20;
 
-<figure><img src="../../../../../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
 
 ***
