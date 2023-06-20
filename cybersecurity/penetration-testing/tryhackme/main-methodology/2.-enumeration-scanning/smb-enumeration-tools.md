@@ -4,7 +4,7 @@
 
 SMB has two ports, 445 and 139.&#x20;
 
-<figure><img src="../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

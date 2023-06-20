@@ -50,4 +50,4 @@ It is combination of 3 open source projects
 
 ### Wazuh Working
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>

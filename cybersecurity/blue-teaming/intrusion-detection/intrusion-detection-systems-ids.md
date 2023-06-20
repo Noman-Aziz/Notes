@@ -44,7 +44,7 @@ They require an active paid subscription in order to be accessed and used
 
 #### Snort Rule Syntax
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
 
 #### Automated Rule Generator (Snorpy)
 
@@ -54,7 +54,7 @@ Snorpy (http://www.cyb3rs3c.net/) can be used to generate rules easily for snorp
 
 #### Snort IDS Network Placement
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
 #### Snort Versions
 

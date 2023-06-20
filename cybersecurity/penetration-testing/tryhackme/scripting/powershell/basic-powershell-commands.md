@@ -12,7 +12,7 @@ Get-Help displays information about a cmdlet. To get help about a particular com
 
 You can also understand how exactly to use the command by passing in the `-examples` flag. This would return output like the following:&#x20;
 
-<figure><img src="../../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -24,7 +24,7 @@ Get-Command gets all the cmdlets installed on the current Computer. The great th
 
 Running `Get-Command New-*` to view all the cmdlets for the verb new displays the following:&#x20;
 
-<figure><img src="../../../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -41,7 +41,7 @@ An example of running this to view the members for Get-Command is: `Get-Command 
 
 From the above flag in the command, you can see that you can also select between methods and properties.
 
-<figure><img src="../../../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -58,7 +58,7 @@ You can also use the following flags to select particular information:
 * unique - shows the unique objects
 * skip - skips x objects
 
-<figure><img src="../../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -90,7 +90,7 @@ For a full list of operators, use [this](https://docs.microsoft.com/en-us/powers
 
 Here's an example of checking the stopped processes:&#x20;
 
-<figure><img src="../../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -106,7 +106,7 @@ Verb-Noun | Sort-Object
 
 Here's an example of sort the list of directories:&#x20;
 
-<figure><img src="../../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
