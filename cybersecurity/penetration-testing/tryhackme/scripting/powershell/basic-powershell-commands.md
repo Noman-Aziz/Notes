@@ -12,7 +12,7 @@ Get-Help displays information about a cmdlet. To get help about a particular com
 
 You can also understand how exactly to use the command by passing in the `-examples` flag. This would return output like the following:&#x20;
 
-<figure><img src="../../../../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (35) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -58,7 +58,7 @@ You can also use the following flags to select particular information:
 * unique - shows the unique objects
 * skip - skips x objects
 
-<figure><img src="../../../../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (60) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
