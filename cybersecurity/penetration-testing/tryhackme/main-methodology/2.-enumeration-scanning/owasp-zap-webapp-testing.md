@@ -95,6 +95,6 @@ Want to further enhance ZAPs capabilities? Look at some of it’s downloadable e
 
 [Link](https://github.com/bugcrowd/HUNT) This will passively scan for known vulnerabilities in web applications.&#x20;
 
-<figure><img src="../../../../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (56) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***

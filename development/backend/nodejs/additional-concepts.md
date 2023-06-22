@@ -6,8 +6,8 @@
   * Despite the fact that Javascript is single threaded
   * By offloading operations to the system kernel whenever possible
 * It looks into the **task queue** and whenever **call stack** is empty, it pops the task from task queue and pushes it in call stack
-* https://www.youtube.com/watch?v=8aGhZQkoFbQ (browser)
-* https://www.youtube.com/watch?v=PNa9OMajw9w (backend)
+* [https://www.youtube.com/watch?v=8aGhZQkoFbQ](https://www.youtube.com/watch?v=8aGhZQkoFbQ) (browser)
+* [https://www.youtube.com/watch?v=PNa9OMajw9w](https://www.youtube.com/watch?v=PNa9OMajw9w) (backend)
 
 #### Example
 

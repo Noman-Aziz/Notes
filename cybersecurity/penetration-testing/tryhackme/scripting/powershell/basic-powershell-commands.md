@@ -24,7 +24,7 @@ Get-Command gets all the cmdlets installed on the current Computer. The great th
 
 Running `Get-Command New-*` to view all the cmdlets for the verb new displays the following:&#x20;
 
-<figure><img src="../../../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -90,7 +90,7 @@ For a full list of operators, use [this](https://docs.microsoft.com/en-us/powers
 
 Here's an example of checking the stopped processes:&#x20;
 
-<figure><img src="../../../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (27) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -106,7 +106,7 @@ Verb-Noun | Sort-Object
 
 Here's an example of sort the list of directories:&#x20;
 
-<figure><img src="../../../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
