@@ -41,7 +41,7 @@ An example of running this to view the members for Get-Command is: `Get-Command 
 
 From the above flag in the command, you can see that you can also select between methods and properties.
 
-<figure><img src="../../../../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (67) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

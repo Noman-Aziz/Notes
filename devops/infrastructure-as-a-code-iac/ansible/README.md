@@ -35,4 +35,4 @@ It is a operations tool that provides
   * These config files are called [playbooks](1.-playbooks.md)
 * [Inventory](3.-inventory.md) is a document that groups the nodes under specific labels
 
-<figure><img src="../../../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (150).png" alt=""><figcaption></figcaption></figure>
