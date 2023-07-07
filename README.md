@@ -26,7 +26,7 @@ Most of these notes are derived from various courses, such as the **eLearnSecuri
 
 <details>
 
-<summary>Dev Ops</summary>
+<summary>DevOps</summary>
 
 In the DevOps section, you'll find in-depth coverage of Infrastructure as Code (IaC) tools like **Ansible** and **Terraform**, which enable the automation and management of infrastructure deployments. These topics have been gleaned from various YouTube video courses, providing detailed insights and practical knowledge on using these tools effectively.
 
