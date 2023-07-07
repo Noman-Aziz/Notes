@@ -22,7 +22,7 @@ Constains info about name servers
 
 Contains info about the mapping of current domain to other domains
 
-***
+
 
 ### Tools
 
@@ -30,7 +30,7 @@ Contains info about the mapping of current domain to other domains
 * #### Nslookup
 * #### Dig
 
-***
+
 
 ### Zone Transfer Enumeration
 
@@ -82,4 +82,3 @@ $ dnsrecon -d zonetransfer.me -t axfr
 /// All Details are Dumped ///
 ```
 
-***

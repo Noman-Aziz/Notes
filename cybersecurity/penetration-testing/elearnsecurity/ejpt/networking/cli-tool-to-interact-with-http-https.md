@@ -12,7 +12,7 @@ Host: www.elearnsecurity.com
 --Response--
 ```
 
-***
+
 
 ### Https Interaction (Openssl)
 
@@ -30,4 +30,3 @@ Some interesting openssl flags are -quiet to disable handshake showing and -debu
 
 You can also use `OPTIONS / HTTP/1.1` to see all the available options that website accepts.
 
-***

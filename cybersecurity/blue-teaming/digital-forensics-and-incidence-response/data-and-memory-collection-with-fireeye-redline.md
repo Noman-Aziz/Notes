@@ -13,4 +13,3 @@
   * browser history
   * much more
 
-***

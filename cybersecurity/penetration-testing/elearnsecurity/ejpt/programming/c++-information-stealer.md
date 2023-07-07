@@ -65,13 +65,13 @@ int main() {
 }
 ```
 
-***
+
 
 ### Compilation
 
 * Add the flag **-lws2\_32** for the linker
 
-***
+
 
 ### Description
 
@@ -81,7 +81,7 @@ On the attacker's end, we will be using netcat to setup a listener on port 5555 
 
 Now that's a high level overview of the code. Let's dive deeper into the code and understand the parts of it:
 
-***
+
 
 ### Explanation
 
@@ -255,4 +255,3 @@ WSACleanup();
 
 Explanation: Clean up the Winsock library components.
 
-***

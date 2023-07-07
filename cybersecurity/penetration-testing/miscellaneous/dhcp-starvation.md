@@ -2,13 +2,13 @@
 
 ### DHCP
 
-<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### DHCP Starvation
 
 Attacker will flood the network with dhcp requests (different mac addresses) and the dhcp server will assign ips to the attacker and consume all the dhcp pool. After that, attacker launches its own rogue dhcp server.
 
-***
+
 
 ### Tools for Attack
 
@@ -16,4 +16,3 @@ Attacker will flood the network with dhcp requests (different mac addresses) and
 
 CLI and GUI based.
 
-***

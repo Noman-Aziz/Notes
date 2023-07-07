@@ -24,7 +24,7 @@ console.log('third')
 // second
 ```
 
-***
+
 
 ### Promises
 
@@ -48,7 +48,7 @@ getText('./file.txt')
 	.catch((err) => console.log(err))
 ```
 
-***
+
 
 ### Async/Await
 
@@ -104,7 +104,7 @@ const start = async() => {
 start()
 ```
 
-***
+
 
 ### Events
 
@@ -138,7 +138,7 @@ server.on('request', (req, res) => {
 server.listen(5000)
 ```
 
-***
+
 
 ### Streams
 
@@ -210,4 +210,3 @@ http.createServer(function (req, res) {
 })
 ```
 
-***

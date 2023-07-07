@@ -4,7 +4,7 @@
 
 It is a free and open source IDS/IPS used to perform network traffic analysis, content matching to detect and prevent various attacks based on **predefined rules**.
 
-***
+
 
 #### Operational Modes
 
@@ -22,7 +22,7 @@ Collects and Logs network traffic in a file
 
 Analyze packets and matches traffic **against signatures**
 
-***
+
 
 #### Snort Rules
 
@@ -40,7 +40,7 @@ Free rules created by Talos. Registered account is required to use them.
 
 They require an active paid subscription in order to be accessed and used
 
-***
+
 
 #### Snort Rule Syntax
 
@@ -50,11 +50,11 @@ They require an active paid subscription in order to be accessed and used
 
 Snorpy (http://www.cyb3rs3c.net/) can be used to generate rules easily for snorp
 
-***
+
 
 #### Snort IDS Network Placement
 
-<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Snort Versions
 
@@ -66,7 +66,7 @@ De facto version of snort which means that is typically deployed and most widely
 
 Latest version that has improved efficiency, performance, scalability and usability over Snort 2.X
 
-***
+
 
 ### Suricata
 
@@ -85,4 +85,3 @@ Exactly similar to how snort works
 
 Install Wazuh Agent on Suricata Server and edit the configuration file on both agent machine and wazuh dashboard to include `/var/log/suricata/eve.json` file [Reference](https://www.youtube.com/watch?v=NB\_u9m-MMcY\&list=PLBf0hzazHTGNcIS\_dHjM2NgNUFMW1EZFx\&index=16)
 
-***

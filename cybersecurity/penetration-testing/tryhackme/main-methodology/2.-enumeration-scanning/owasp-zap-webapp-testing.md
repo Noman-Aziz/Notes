@@ -16,7 +16,7 @@ OWASP Zap (Zed Attack Proxy) is a security testing framework much like Burp Suit
 
 <figure><img src="../../../../../.gitbook/assets/image (54) (1).png" alt=""><figcaption></figcaption></figure>
 
-***
+
 
 ### **Automated Scan**
 
@@ -38,7 +38,7 @@ The easiest way to use the Ajax Spider is with **HTMLUnit**.
   * `sudo apt install libjenkins-htmlunit-core-js-java`
 * And then select `HtmlUnity` from the Ajax Spider Dropdown.
 
-***
+
 
 ### **Manual Scanning**
 
@@ -52,7 +52,7 @@ Goto `Options -> Local Proxies`, Change Local Firefox Proxy settings to the abov
 
 Without importing ZAP Certificates, ZAP is unable to handle simultaneous Web request forwarding and intercepting. Goto `Options -> Dynamic SSL Certificates` and save the certificate which should later be imported into firefox.
 
-***
+
 
 ### Scanning Authenticated Web Applications
 
@@ -64,7 +64,7 @@ In ZAP open the HTTP Sessions tab with the new tab button, and set the authentic
 
 Now re-scan the application. You’ll see it’s able to pick up a lot more.
 
-***
+
 
 ### Brute-Force Directories
 
@@ -74,7 +74,7 @@ If the passive scans are not enough, you can use a wordlist attack and directory
 2. Then, right click the `site->attack->forced browse site`
 3. Select your imported wordlist from the list menu, and then hit the play button!
 
-***
+
 
 ### Brute-Force Web Login
 
@@ -85,7 +85,7 @@ If you wanted to do this with BurpSuite, you'd need to intercept the request, an
 3. Then highlight the password you attempted and add a wordlist. This selects the area of the request you wish to replace with other data.
 4. After running the fuzzer, sort the state tab to show Reflected results first. Sometimes you will get false-positives, but you can ignore the passwords that are less than 8 characters in length.
 
-***
+
 
 ### **ZAP Extensions**
 
@@ -97,4 +97,3 @@ Want to further enhance ZAPs capabilities? Look at some of it’s downloadable e
 
 <figure><img src="../../../../../.gitbook/assets/image (56) (1).png" alt=""><figcaption></figcaption></figure>
 
-***

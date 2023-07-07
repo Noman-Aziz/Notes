@@ -18,4 +18,3 @@ send(IP(src="x.x.x.x",dst="y.y.y.y")/ICMP()/"Hello World")
 send(IP(src="x.x.x.x",dst="y.y.y.y")/TCP(sport="x",dport="y"), count=n)
 ```
 
-***

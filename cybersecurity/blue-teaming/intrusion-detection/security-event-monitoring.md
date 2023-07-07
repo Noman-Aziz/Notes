@@ -9,4 +9,3 @@
 
 We can forward snort logs to splunk to visualize them. We will use `splunk universal forwarder` tool installed on snort server
 
-***

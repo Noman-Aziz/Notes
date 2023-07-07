@@ -41,7 +41,7 @@ In this situation, an attacker who is in a position to intercept a victim user's
 
 **This attack is effective even if the vulnerable website is otherwise robust in its usage of HTTPS, with no HTTP endpoint and all cookies flagged as secure.**
 
-***
+
 
 #### Proof of Concept via XSS
 

@@ -25,7 +25,7 @@ Access-Control-Allow-Origin: *
 
 The application server is trusting resource requests from any origin without credentials. If users within the private IP address space access the public internet then a CORS-based attack can be performed from the external site that uses the victim's browser as a proxy for accessing intranet resources.
 
-***
+
 
 ### Local Network Scanner
 

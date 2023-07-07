@@ -4,19 +4,19 @@
 
 It is used to request a resource. We can also pass arguments to webserver in url using `?`
 
-***
+
 
 ### Post
 
 It is used to submit HTML form data. POST parameters should be in message body
 
-***
+
 
 ### Head
 
 It asks header of the response instead of also getting the body.
 
-***
+
 
 ### Put
 
@@ -51,7 +51,7 @@ Content-length: 20
 
 * HTTP/1.0 allows us to skip the **Host:** header
 
-***
+
 
 ### Delete
 
@@ -62,7 +62,7 @@ DELETE /path/to/destination HTTP/1.1
 Host: www.example.com
 ```
 
-***
+
 
 ### Options
 

@@ -4,7 +4,7 @@
 
 Shodan.io is a search engine for the Internet of Things. Shodan scans the whole internet and indexes the services run on each IP address.
 
-***
+
 
 ### **Finding services**
 
@@ -14,7 +14,7 @@ Shodan.io is a search engine for the Internet of Things. Shodan scans the whole 
 * If services like Cloudflare acts as a proxy between website and their real servers, this isn’t helpful. We need some way to get their IP addresses.
 * We can do this using Autonomous System Numbers.
 
-***
+
 
 ### **Autonomous System Numbers**
 
@@ -23,7 +23,7 @@ Shodan.io is a search engine for the Internet of Things. Shodan scans the whole 
 * We can put the IP address into an ASN lookup tools, Which tells us the ASN number.
 * On Shodan.io, we can search using the ASN filter. The filter is `ASN:[number]`
 
-***
+
 
 ### **Banners**
 
@@ -45,7 +45,7 @@ Shodan.io is a search engine for the Internet of Things. Shodan scans the whole 
      }
     ```
 
-***
+
 
 ### **Filters**
 
@@ -54,20 +54,20 @@ Shodan.io is a search engine for the Internet of Things. Shodan scans the whole 
 * It is legal to view a publicly accessible webcam, it is illegal to try to break into a password protected one.
 * we can actually combine 2 searches into 1 using multiple queries.
 
-***
+
 
 ### **API**
 
 * The API lets us programmatically search Shodan and receive a list of IP addresses in return. If we are a company, we can write a script to check over our IP addresses to see if any of them are vulnerable.
 
-***
+
 
 ### **Shodan Monitor**
 
 * Shodan Monitor is an application for monitoring your devices in your own network.
   * Keep track of the devices that you have exposed to the Internet. Setup notifications, launch scans and gain complete visibility into what you have connected.
 
-***
+
 
 ### **Shodan Dorking**
 
@@ -78,7 +78,7 @@ Shodan.io is a search engine for the Internet of Things. Shodan scans the whole 
   * Another command for getting labelled ss is `screenshot.label:ics`
 * You can find more Shodan Dorks on GitHub.
 
-***
+
 
 ### **Shodan Extension**
 
@@ -86,4 +86,3 @@ Shodan.io is a search engine for the Internet of Things. Shodan scans the whole 
 * When installed, you can click on it and it’ll tell you the IP address of the webserver running, what ports are open, where it’s based and if it has any security issues.
 * this is a good extension for any people interested in bug bounties, being quickly able to tell if a system looks vulnerable or not based on the Shodan output.
 
-***

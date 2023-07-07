@@ -22,7 +22,7 @@ It uses 3 ports
    1. Used for NetBIOS Names
    2. Names are used to find workgroups
 
-***
+
 
 ### UNC Paths
 
@@ -32,7 +32,7 @@ UNC stands for Universal Naming Convention Paths. An authorized user can access 
 \\ServerName\ShareName\File.dat
 ```
 
-***
+
 
 ### Administrative Shares
 
@@ -47,4 +47,3 @@ They are used by system admins and windows itself
    1. Used for inter process communication
    2. It can not be browsed via windows explorer
 
-***

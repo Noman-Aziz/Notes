@@ -4,7 +4,7 @@
 
 Reverse SSH port forwarding specifies that the given port on the remote server host is to be forwarded to the given host and port on the local side.
 
-***
+
 
 ### Local Tunnel vs Remote Tunnel
 
@@ -26,4 +26,3 @@ And then we can access `http://localhost:1000` to view the content.
 
 \-R is a remote tunnel (YOU --> CLIENT). You forward your traffic to the other server for others to view.
 
-***

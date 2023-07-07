@@ -2,7 +2,7 @@
 
 Ping Sweeping to check which hosts are alive in network or not.
 
-***
+
 
 ### Fping
 
@@ -11,7 +11,7 @@ Ping Sweeping to check which hosts are alive in network or not.
 * `-a` used to check for alive hosts
 * `-g` to perform ping sweep instead of normal ping
 
-***
+
 
 ### Nmap
 
@@ -19,4 +19,3 @@ Ping Sweeping to check which hosts are alive in network or not.
 
 * `-iL` to read hosts from file
 
-***

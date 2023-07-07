@@ -18,4 +18,3 @@ description: >-
   * Dockerfile
   * Kubernetes
 
-***

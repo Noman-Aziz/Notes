@@ -45,13 +45,13 @@ int main() {
 }
 ```
 
-***
+
 
 ### Compilation
 
 Add the flag **-lws2\_32** for the linker:
 
-***
+
 
 ### Description:
 
@@ -59,7 +59,7 @@ The above code would send the keystrokes (only printable characters) of the user
 
 On the attacker's end, we will be using netcat to setup a listener on port 5555 and receive the data sent by the keylogger program.
 
-***
+
 
 ### Explanation:
 
@@ -203,4 +203,3 @@ WSACleanup();
 
 Explanation: Clean up the Winsock library components.
 
-***

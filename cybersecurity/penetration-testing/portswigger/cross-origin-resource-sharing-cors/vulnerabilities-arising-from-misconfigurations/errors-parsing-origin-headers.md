@@ -28,4 +28,3 @@ An attacker might be able to gain access using the domain:
 normal-website.com.evil-user.net
 ```
 
-***

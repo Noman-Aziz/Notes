@@ -2,7 +2,7 @@
 
 The Access-Control-Allow-Origin header is included in the response from one website to a request originating from another website, and identifies the permitted origin of the request. A web browser compares the Access-Control-Allow-Origin with the requesting website's origin and permits access to the response if they match.
 
-***
+
 
 ### Implementing simple cross-origin resource sharing
 
@@ -28,7 +28,7 @@ The browser will allow code running on normal-website.com to access the response
 
 The specification of Access-Control-Allow-Origin allows for multiple origins, or the value null, or the wildcard \_. However, no browser supports multiple origins and there are restrictions on the use of the wildcard \_.
 
-***
+
 
 ### Handling cross-origin resource requests with credentials
 
@@ -53,7 +53,7 @@ Access-Control-Allow-Credentials: true
 
 Then the browser will permit the requesting website to read the response, because the Access-Control-Allow-Credentials response header is set to true. Otherwise, the browser will not allow access to the response.
 
-***
+
 
 ### Relaxation of CORS specifications with wildcards
 
@@ -70,7 +70,7 @@ Access-Control-Allow-Credentials: true
 
 Given these constraints, some web servers dynamically create Access-Control-Allow-Origin headers based upon the client-specified origin. This is a workaround for CORS constraints that is not secure.
 
-***
+
 
 ### Pre-flight checks
 

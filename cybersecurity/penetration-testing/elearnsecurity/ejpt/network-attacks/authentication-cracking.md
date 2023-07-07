@@ -10,4 +10,3 @@ Use `-U` switch
 hydra -U rdp
 ```
 
-***

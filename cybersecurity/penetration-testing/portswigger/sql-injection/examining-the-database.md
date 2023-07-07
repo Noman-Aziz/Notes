@@ -13,7 +13,7 @@ PostgreSQL	SELECT version()
 
 For example, you could use a UNION attack with the following input: `' UNION SELECT @@version--`
 
-***
+
 
 ### Listing the contents of the database
 
@@ -47,4 +47,3 @@ And you can list columns by querying all\_tab\_columns:
 SELECT * FROM all_tab_columns WHERE table_name = 'USERS'
 ```
 
-***

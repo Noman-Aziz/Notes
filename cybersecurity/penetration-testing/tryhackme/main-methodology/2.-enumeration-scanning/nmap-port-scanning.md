@@ -2,7 +2,7 @@
 
 nmap will connect to each port of the target in turn. Depending on how the port responds, it can be determined as being open, closed, or filtered (usually by a firewall). Once we know which ports are open, we can then look at enumerating which services are running on each port – either manually, or more commonly using nmap.
 
-***
+
 
 ### **Switches**:
 
@@ -15,7 +15,7 @@ nmap will connect to each port of the target in turn. Depending on how the port 
 * Save Output in 3 Major Formats : -oA
 * Scan all Ports : -p-
 
-***
+
 
 ### **Scan Types**:
 
@@ -56,7 +56,7 @@ nmap will connect to each port of the target in turn. Depending on how the port 
 * dont scan any ports -- forcing it to rely primarily on ICMP echo packets (or ARP requests on a local network, if run with sudo or directly as the root user) to identify targets.
 * also cause nmap to send a TCP SYN packet to port 443 of the target, as well as a TCP ACK (or TCP SYN if not run as root) packet to port 80 of the target.
 
-***
+
 
 ### **Scripting Engine**
 
@@ -83,7 +83,7 @@ nmap will connect to each port of the target in turn. Depending on how the port 
 
 Port 111 runs the service rpcbind. This is just a server that converts remote procedure call (RPC) program number into universal addresses. When an RPC service is started, it tells rpcbind the address at which it is listening and the RPC program number its prepared to serve. If port 111 is access to a network file system. Nmap command to enumerate this: `nmap -p 111 --script=nfs-ls,nfs-statfs,nfs-showmount <IP>`
 
-***
+
 
 ### **Firewall Evasion**
 

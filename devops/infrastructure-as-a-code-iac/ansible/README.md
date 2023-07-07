@@ -8,7 +8,7 @@ It is a operations tool that provides
 2. Configuration management
 3. Automatic deployment
 
-***
+
 
 ### Push/Pull Architecture
 
@@ -25,7 +25,7 @@ It is a operations tool that provides
 * It uses agentless approach since it uses SSH to deploy the configuration on the nodes
 * We can also use custom authentication protocols like **Kerberos** via plugins
 
-***
+
 
 ### Ansible Architecture
 

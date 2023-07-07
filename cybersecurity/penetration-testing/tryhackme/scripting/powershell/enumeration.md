@@ -4,7 +4,7 @@
 
 The first step when you have gained initial access to any machine would be to enumerate
 
-***
+
 
 ### Get Number of Users on a Machine
 
@@ -12,7 +12,7 @@ The first step when you have gained initial access to any machine would be to en
 Get-LocalUser
 ```
 
-***
+
 
 ### Get Number of Local Groups
 
@@ -20,7 +20,7 @@ Get-LocalUser
 Get-LocalGroup
 ```
 
-***
+
 
 ### Get IP Address
 
@@ -28,7 +28,7 @@ Get-LocalGroup
 Get-NetIPAddress
 ```
 
-***
+
 
 ### See Applied Patches
 
@@ -36,7 +36,7 @@ Get-NetIPAddress
 Get-Hotfix
 ```
 
-***
+
 
 ### Search for all files containing Specific Content
 
@@ -44,7 +44,7 @@ Get-Hotfix
 Get-ChildItem C:\* -Recurse | Select-String -pattern SpecificContent
 ```
 
-***
+
 
 ### Get list of Running Processes
 
@@ -52,7 +52,7 @@ Get-ChildItem C:\* -Recurse | Select-String -pattern SpecificContent
 Get-Process
 ```
 
-***
+
 
 ### Get list of Scheduled Tasks
 
@@ -60,7 +60,7 @@ Get-Process
 Get-ScheduleTask
 ```
 
-***
+
 
 ### Check Owner of a Folder/File
 
@@ -68,4 +68,3 @@ Get-ScheduleTask
 Get-Acl c:/
 ```
 
-***

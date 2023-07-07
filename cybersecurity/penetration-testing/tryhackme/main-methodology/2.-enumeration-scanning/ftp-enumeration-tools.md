@@ -4,4 +4,3 @@
 
 To login anonymously, use username `anonymous` and password `password`
 
-***

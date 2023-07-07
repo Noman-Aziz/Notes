@@ -8,7 +8,7 @@
   * Collect, analyze, aggregate, index and analyze security related data
   * Allowing you to detect intrusions, attacks, vulnerabilities and malicious activity
 
-***
+
 
 ### Wazuh Features
 
@@ -22,7 +22,7 @@
 * Container Security
 * Regulatory Compliance
 
-***
+
 
 ### Wazuh Components
 
@@ -46,7 +46,7 @@ It is combination of 3 open source projects
 2. Log Stash : server side data processing pipeline
 3. Kibana : Lets user visualize data with charts and graphs
 
-***
+
 
 ### Wazuh Working
 

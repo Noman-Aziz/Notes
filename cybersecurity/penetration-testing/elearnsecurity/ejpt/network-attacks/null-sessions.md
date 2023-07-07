@@ -13,7 +13,7 @@ These attacks can be used to enumerate
 
 Null sessions are remotely exploitable, they can be used to call remote apis and remote procedure calls,
 
-***
+
 
 ### Enumerating Windows Shares
 
@@ -50,7 +50,7 @@ smbclient -L //IP -N
 * \-N forces tool to not ask for password
 * This tool also list **administrative shares** that are hidden by using windows tools.
 
-***
+
 
 ### Checking for Null Sessions
 
@@ -70,7 +70,7 @@ This tells windows to connect with empty password and empty username.
 smbclient //IP/IPC$ -N
 ```
 
-***
+
 
 ### Exploiting with [Enum](http://packetstormsecurity.com/search/?q=win32+enum\&s=files) Script
 
@@ -94,7 +94,7 @@ enum -P ip
 
 \-P tells you about the password policy which is useful for password cracking.
 
-***
+
 
 ### Exploiting with [Winfo](http://packetstormsecurity.com/search/?q=winfo\&s=files) Script
 
@@ -104,10 +104,9 @@ It is also a cli script used to automate null session attack
 winfo ip -n
 ```
 
-***
+
 
 ### Exploiting with Enum4Linux
 
 It is also used to attack null sessions.
 
-***

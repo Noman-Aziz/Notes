@@ -2,7 +2,7 @@
 
 Now that we've understood how cmdlets works - let's explore how to use them! The main thing to remember here is that `Get-Command` and `Get-Help` are your best friends!
 
-***
+
 
 ### Using Get-Help
 
@@ -14,7 +14,7 @@ You can also understand how exactly to use the command by passing in the `-examp
 
 <figure><img src="../../../../../.gitbook/assets/image (35) (1).png" alt=""><figcaption></figcaption></figure>
 
-***
+
 
 ### Using Get-Command
 
@@ -26,7 +26,7 @@ Running `Get-Command New-*` to view all the cmdlets for the verb new displays th
 
 <figure><img src="../../../../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
-***
+
 
 ### Object Manipulation
 
@@ -43,7 +43,7 @@ From the above flag in the command, you can see that you can also select between
 
 <figure><img src="../../../../../.gitbook/assets/image (67) (1).png" alt=""><figcaption></figcaption></figure>
 
-***
+
 
 ### Creating Objects From Previous cmdlets
 
@@ -60,7 +60,7 @@ You can also use the following flags to select particular information:
 
 <figure><img src="../../../../../.gitbook/assets/image (60) (1).png" alt=""><figcaption></figcaption></figure>
 
-***
+
 
 ### Filtering Objects
 
@@ -92,7 +92,7 @@ Here's an example of checking the stopped processes:&#x20;
 
 <figure><img src="../../../../../.gitbook/assets/image (27) (1).png" alt=""><figcaption></figcaption></figure>
 
-***
+
 
 ### Sort Object
 
@@ -108,7 +108,7 @@ Here's an example of sort the list of directories:&#x20;
 
 <figure><img src="../../../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
-***
+
 
 ### Find Location of a File
 
@@ -116,7 +116,7 @@ Here's an example of sort the list of directories:&#x20;
 Get-ChildItem -Path C:\ -Include *fileName.txt* -File -Recurse -ErrorAction SilentlyContinue
 ```
 
-***
+
 
 ### Specify Contents of a File
 
@@ -124,7 +124,7 @@ Get-ChildItem -Path C:\ -Include *fileName.txt* -File -Recurse -ErrorAction Sile
 Get-Content "C:\Program Files\file.txt"
 ```
 
-***
+
 
 ### Get the MD5 hash of a File
 
@@ -132,7 +132,7 @@ Get-Content "C:\Program Files\file.txt"
 Get-FileHash -Path "C:\Program Files\file.txt" -Algorithm MD5
 ```
 
-***
+
 
 ### Get Current Working Directory
 
@@ -140,7 +140,7 @@ Get-FileHash -Path "C:\Program Files\file.txt" -Algorithm MD5
 Get-Location
 ```
 
-***
+
 
 ### Make Web Request to a Server
 
@@ -148,7 +148,7 @@ Get-Location
 Invoke-WebRequest
 ```
 
-***
+
 
 ### Base64 decode the file contents
 
@@ -156,4 +156,3 @@ Invoke-WebRequest
 certutil -decode "C:\b64.txt" decode.txt
 ```
 
-***

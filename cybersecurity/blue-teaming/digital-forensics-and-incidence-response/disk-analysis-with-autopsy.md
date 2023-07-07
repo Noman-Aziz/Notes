@@ -10,7 +10,7 @@
   * **Encase Imager**
 * Forensic imager tools do not change or modify any data. This is accomplished with use of bitstream
 
-***
+
 
 ### Autopsy
 
@@ -23,4 +23,3 @@
   * File Metadata
 * Used by LEAs worldwide to analyze and extract evidence from hard drives and other storage mediums used in crimes
 
-***

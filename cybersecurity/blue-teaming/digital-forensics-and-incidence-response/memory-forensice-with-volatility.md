@@ -16,13 +16,13 @@
   * volatility3 is written in python3
 * It does not support memory acquisition ability
 
-***
+
 
 ### Usage
 
 `volatility -f <dump-file> <plugin-name>`
 
-***
+
 
 ### Plugins
 

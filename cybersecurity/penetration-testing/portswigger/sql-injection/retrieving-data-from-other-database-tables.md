@@ -30,7 +30,7 @@ etc.
 
 If the number of nulls does not match the number of columns, the database returns an error
 
-***
+
 
 ### Finding columns with a useful data type in an SQL injection UNION attack
 
@@ -51,7 +51,7 @@ On Oracle databases, every SELECT statement must specify a table to select FROM.
 
 There is a built-in table on Oracle called dual which you can use for this purpose. For example: `UNION SELECT 'abc' FROM dual`
 
-***
+
 
 ### Retrieving multiple values within a single column
 
@@ -63,4 +63,3 @@ You can easily retrieve multiple values together within this single column by co
 
 This uses the double-pipe sequence || which is a string concatenation operator on Oracle.
 
-***

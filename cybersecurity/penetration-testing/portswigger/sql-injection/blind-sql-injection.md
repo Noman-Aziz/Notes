@@ -6,7 +6,7 @@ Blind SQL injection arises when an application is vulnerable to SQL injection, b
 
 With blind SQL injection vulnerabilities, many techniques such as `UNION attacks`, are not effective because they rely on being able to see the results of the injected query within the application's responses.
 
-***
+
 
 ### Exploiting blind SQL injection by triggering conditional responses
 
@@ -75,7 +75,7 @@ xyz' AND (select 'john' from users where username = 'john')='john'--
 xyz' AND LENGTH((select password from users where username = 'john')) > 1--
 ```
 
-***
+
 
 ### Inducing conditional responses by triggering SQL errors
 
@@ -92,4 +92,3 @@ xyz' AND (SELECT CASE WHEN (1=1) THEN 1/0 ELSE 'a' END)='a
 
 These inputs use the CASE keyword to test a condition and return a different expression depending on whether the expression is true. With the first input, the CASE expression evaluates to 'a', which does not cause any error. With the second input, it evaluates to 1/0, which causes a divide-by-zero error. Assuming the error causes some difference in the application's HTTP response, we can use this difference to infer whether the injected condition is true.
 
-***

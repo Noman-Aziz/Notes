@@ -4,7 +4,7 @@
 
 We can Enumerate Usernames with Open SMTP Port
 
-***
+
 
 ### smtp-user-enum
 
@@ -12,4 +12,3 @@ We can Enumerate Usernames with Open SMTP Port
 smtp-user-enum -M mode -U wordlist -t ip
 ```
 
-***

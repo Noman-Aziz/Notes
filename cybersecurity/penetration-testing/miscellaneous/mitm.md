@@ -4,13 +4,13 @@
 
 For Windows (DEPRECATED)
 
-***
+
 
 ### MITMF
 
 For Linux (DEPRECATED)
 
-***
+
 
 ### Bettercap
 
@@ -44,7 +44,7 @@ To save sniffed traffic `set net.sniff.output pentest.pcap`
 
 To check https unencrypted traffic using ssl strip `set http.proxy.sslstrip true`
 
-***
+
 
 ### Make User install malware using MITM
 
@@ -53,4 +53,3 @@ To check https unencrypted traffic using ssl strip `set http.proxy.sslstrip true
 3. SNIFFING
 4. Make user download malware in his pc
 
-***

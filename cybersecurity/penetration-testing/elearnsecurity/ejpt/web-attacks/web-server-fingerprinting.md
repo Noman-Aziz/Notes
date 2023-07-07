@@ -14,7 +14,7 @@ HEAD / HTTP/1.0
 SERVER RESPONSE
 ```
 
-***
+
 
 ### Fingerprinting with Httprint
 

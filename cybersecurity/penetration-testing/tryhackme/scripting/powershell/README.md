@@ -18,4 +18,3 @@ Common verbs to use include:
 
 To get the full list of approved verbs, visit [this](https://docs.microsoft.com/en-us/powershell/scripting/developer/cmdlet/approved-verbs-for-windows-powershell-commands?view=powershell-7) link.
 
-***

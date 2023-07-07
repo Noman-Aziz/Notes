@@ -15,13 +15,13 @@ It is an inverse TCP scan. It has **urge, push and fin** bits on.
 
 #### 3. Null Scan
 
-***
+
 
 ### Reason Flag
 
 `--reason` tells us the reason why the port is marked as open/filtered/closed.
 
-***
+
 
 ### Firewall Detection
 
@@ -32,7 +32,7 @@ We send a request with ACK flag set. It works on any OS.
 * if we do not get a response from the target, it means that there is a firewall in place.
 * If we do get a RST response, it means that there is no firewall present and traffic is unfiltered
 
-***
+
 
 ### Firewall Evasion (Deprecated)
 
@@ -62,7 +62,7 @@ $ nmap -sV -F -f --send-eth target // 8 bytes //
 $ nmap -sV -F --mtu 16 --send-eth // 16 bytes //
 ```
 
-***
+
 
 ### Scan, Timing and Performance (IDS Evasion)
 
@@ -110,4 +110,3 @@ $ nmap -sV -F --mtu 16 --send-eth // 16 bytes //
 * `--min-rate 20`
 * `--max-rate 2`
 
-***

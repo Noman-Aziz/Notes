@@ -8,7 +8,7 @@ We should have
 * Priviledges escalated to Admin
 * Migration of our payload to a stable process (e.g explorer.exe)
 
-***
+
 
 ### Steps
 
@@ -22,4 +22,3 @@ In the Meterpreter session
 
 It makes an entry in the registry
 
-***

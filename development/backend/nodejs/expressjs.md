@@ -22,7 +22,7 @@ app.listen(5000, () => {
 })
 ```
 
-***
+
 
 ### API vs SSR
 
@@ -32,7 +32,7 @@ app.listen(5000, () => {
 | Send Data  | Send Template |
 | Res.JSON() | Res.Render()  |
 
-***
+
 
 ### JSON APIs
 
@@ -52,7 +52,7 @@ app.listen(5000, () => {
 })
 ```
 
-***
+
 
 ### Middlewares
 
@@ -128,7 +128,7 @@ app.listen(5000, () => {
 3. Third Party
    1. Morgan (Logger)
 
-***
+
 
 ### POST Method
 
@@ -150,7 +150,7 @@ app.post('/login', (req, res) => {
 })
 ```
 
-***
+
 
 ### Express Router
 
@@ -207,7 +207,7 @@ app.use('/api/people', people)
 app.use('/login', auth)
 ```
 
-***
+
 
 ### Express Router Controllers (MVC)
 
@@ -250,10 +250,9 @@ router.route('/').get(getPeople).post(postPeople)
 router.route('/single').get(getSingle)
 ```
 
-***
+
 
 ### Mongoose
 
 * Mongodb object modelling library for node.js
 
-***

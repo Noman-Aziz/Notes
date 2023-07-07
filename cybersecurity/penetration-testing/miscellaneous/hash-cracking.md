@@ -6,7 +6,7 @@ Some tools to generate wordlists which can be used with hydra, john, etc
 
 * #### Crunch
 
-***
+
 
 ### Rainbow Tables (RainbowCrack)
 
@@ -34,4 +34,3 @@ Used to sort the rainbow table
 
 Used to crack the hash using rainbow table
 
-***

@@ -15,7 +15,7 @@
 5. Provisioning tools
    * Used to provision cloud resources
 
-***
+
 
 ### Declarative vs Imperative
 
@@ -28,7 +28,7 @@
 
 * We tell system what we want to happen and the **sequence** in which we want to happen
 
-***
+
 
 ### Cloud Specific vs Cloud Agnostic
 
@@ -41,7 +41,7 @@
 * It does not focus on a simple platform. It is generic in nature
 * Examples are Terraform and Pulumi
 
-***
+
 
 ### Common Patterns
 
@@ -57,4 +57,3 @@ Terraform can also be used with hashicorp packer which package the image and can
 
 Terraform can be used with kubernetes cluster. Terraform is used to deploy cloud resources and k8 will be used to deploy the applications managed onto that cloud resource
 
-***
