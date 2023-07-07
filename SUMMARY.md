@@ -1,6 +1,6 @@
 # Table of contents
 
-* [👋 Welcome!](README.md)
+* [🙌 Welcome!](README.md)
 
 ## CyberSecurity
 
@@ -201,17 +201,6 @@
     * [3. Inventory](devops/infrastructure-as-a-code-iac/ansible/3.-inventory.md)
     * [4. Roles](devops/infrastructure-as-a-code-iac/ansible/4.-roles.md)
     * [5. Ansible Tower](devops/infrastructure-as-a-code-iac/ansible/5.-ansible-tower.md)
-  * [Kubernetes](devops/infrastructure-as-a-code-iac/kubernetes/README.md)
-    * [1. Main K8s Components](devops/infrastructure-as-a-code-iac/kubernetes/1.-main-k8s-components.md)
-    * [2. K8s Architecture](devops/infrastructure-as-a-code-iac/kubernetes/2.-k8s-architecture.md)
-    * [3. Minikube & Kubectl](devops/infrastructure-as-a-code-iac/kubernetes/3.-minikube-and-kubectl.md)
-    * [4. YAML Configuration File](devops/infrastructure-as-a-code-iac/kubernetes/4.-yaml-configuration-file.md)
-    * [5. K8s Namespaces](devops/infrastructure-as-a-code-iac/kubernetes/5.-k8s-namespaces.md)
-    * [6. K8s Ingress](devops/infrastructure-as-a-code-iac/kubernetes/6.-k8s-ingress.md)
-    * [7. Helm - Package Manager of K8s](devops/infrastructure-as-a-code-iac/kubernetes/7.-helm-package-manager-of-k8s.md)
-    * [8. K8 Volumes](devops/infrastructure-as-a-code-iac/kubernetes/8.-k8-volumes.md)
-    * [9. K8 StatefulSet](devops/infrastructure-as-a-code-iac/kubernetes/9.-k8-statefulset.md)
-    * [10. K8 Services](devops/infrastructure-as-a-code-iac/kubernetes/10.-k8-services.md)
   * [Terraform](devops/infrastructure-as-a-code-iac/terraform/README.md)
     * [1. Overview](devops/infrastructure-as-a-code-iac/terraform/1.-overview.md)
     * [2. Modify Resources](devops/infrastructure-as-a-code-iac/terraform/2.-modify-resources.md)
@@ -228,6 +217,18 @@
     * [13. Managing Multiple Environments](devops/infrastructure-as-a-code-iac/terraform/13.-managing-multiple-environments.md)
     * [14. Testing Terraform Code](devops/infrastructure-as-a-code-iac/terraform/14.-testing-terraform-code.md)
     * [15. Final Thoughts](devops/infrastructure-as-a-code-iac/terraform/15.-final-thoughts.md)
+* [Orchestration](devops/orchestration/README.md)
+  * [Kubernetes](devops/orchestration/kubernetes/README.md)
+    * [1. Main K8s Components](devops/orchestration/kubernetes/1.-main-k8s-components.md)
+    * [2. K8s Architecture](devops/orchestration/kubernetes/2.-k8s-architecture.md)
+    * [3. Minikube & Kubectl](devops/orchestration/kubernetes/3.-minikube-and-kubectl.md)
+    * [4. YAML Configuration File](devops/orchestration/kubernetes/4.-yaml-configuration-file.md)
+    * [5. K8s Namespaces](devops/orchestration/kubernetes/5.-k8s-namespaces.md)
+    * [6. K8s Ingress](devops/orchestration/kubernetes/6.-k8s-ingress.md)
+    * [7. Helm - Package Manager of K8s](devops/orchestration/kubernetes/7.-helm-package-manager-of-k8s.md)
+    * [8. K8 Volumes](devops/orchestration/kubernetes/8.-k8-volumes.md)
+    * [9. K8 StatefulSet](devops/orchestration/kubernetes/9.-k8-statefulset.md)
+    * [10. K8 Services](devops/orchestration/kubernetes/10.-k8-services.md)
 
 ## Development
 
